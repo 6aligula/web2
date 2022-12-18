@@ -1,0 +1,22 @@
+{
+  "name": "my_web",
+  "version": "1.0.0",
+  "description": "hardware, software, blockchain, repairs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "next build",
+    "start": "next start",
+    "deploy": "npx serverless"
+  },
+  "author": "Vinicio Naranjo Mosquera",
+  "license": "ISC",
+  "dependencies": {
+    "bootswatch": "^5.2.2",
+    "next": "^12.3.1",
+    "nprogress": "^0.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

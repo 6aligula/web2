@@ -1,0 +1,26 @@
+.overflow {
+    height: 50%;
+    overflow: hidden;
+}
+
+/*aumentar el tamaño del card cuando hacves hover*/
+.overflow .card-img-top {
+    transform: scale(1);
+    transition: all 0.2s ease-in-out;
+
+}
+
+.overflow .card-img-top:hover {
+    transform: scale(1.8);
+
+}
+
+/*modificar colores de barra de progreso*/
+#nprogress .bar {
+    background-color: greenyellow !important;
+}
+
+#nprogress .spinner-icon {
+    border-top-color: antiquewhite;
+    border-left-color: aquamarine;
+}

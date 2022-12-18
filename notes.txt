@@ -1,0 +1,9 @@
+/*Create the new React App*/
+- npm init
+- npm install react react-dom next
+
+/*instalar bootswatch*/
+npm install bootswatch
+
+/*instalar barra de progreso*/
+npm install nprogress
