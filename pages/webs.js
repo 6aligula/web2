@@ -1,11 +1,13 @@
 import Layout from "../components/Layout"
 import { web } from "../profile"
 import { testUrl } from "../functions/functions"
+import AddButton from "../components/AddButton";
 
 const webs = () => {
     return (
         <div>
             <Layout title="Diseño de Webs" >
+                <AddButton/>
                 <div className="row">
                     <div className="col-md-12">
                         <div className="card card-body bg-dark">

@@ -1,10 +1,13 @@
 import Layout from "../components/Layout"
-import { iotProfile } from "../profile"
+import { iotProfile } from "../profile";
+import AddButton from "../components/AddButton";
 
 const iot = () => {
     return (
         <div>
+            
             <Layout title="Internet de las cosas">
+            <AddButton/>
                 <div className="row">
                     <div className="col-md-12">
                         <div className="card card-body bg-dark">

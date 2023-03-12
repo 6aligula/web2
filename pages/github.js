@@ -1,5 +1,6 @@
 import Layout from "../components/Layout"
-import Error from './_error'
+import Error from './_error';
+import AddButton from "../components/AddButton";
 
 const github = ({ user, statusCode }) => {
     //console.log(user);
@@ -14,6 +15,7 @@ const github = ({ user, statusCode }) => {
     }
     return (
         <Layout footer={false} title="Github" >
+            <AddButton/>
             <div className="row">
                 <div className="col-md-4 offset-md-4">
                     <div className="card card-body text-center">

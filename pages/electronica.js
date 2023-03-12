@@ -1,10 +1,11 @@
 import Layout from "../components/Layout";
+import AddButton from "../components/AddButton";
 
 const electronica = () => {
     return (
         <div>
             <Layout title="Electrónica" >
-
+                <AddButton/>
 
                 <div className="row">
                     <div className="col-md-12">

@@ -5,7 +5,7 @@ export default function Document() {
     return (
         <Html>
             <Head>
-                <title>Whole Automation</title>
+            <title>Systems Evolution</title>
                 <meta name='description' content='Freelance dedicado al desarollo de paginas web, Apps moviles, internet de las cosas y reparaciones de electrónica' />
                 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.css' />
                 {/*  link a bootstrap  */}

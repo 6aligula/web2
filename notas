@@ -1,3 +1,12 @@
+      TENGO UN DOCKERFILE DE UN PROYECTO DE NEXT.JS y necesito un dockercompose para ver los cambios en tiempo real de la app
+                            ahora quiero que los cambios se ejecutan cuando cambio algo y lo guardo
+
+
+
+
+
+docker file para produccion
+
 # Usa la imagen de node.js versión 14 como base
 FROM node:14
 

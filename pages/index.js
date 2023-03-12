@@ -21,7 +21,9 @@ const index = () => {
                                         <div className="col-md-4 p-2" key={i}>
                                             <div className="card h-100">
                                                 <div className="overflow">
-                                                    <img src={`/${image}`} alt="" className="card-img-top" />
+                                                    <a href={url}>
+                                                        <img src={`/${image}`} alt="" className="card-img-top" />
+                                                    </a>
 
                                                 </div>
 

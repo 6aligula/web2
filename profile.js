@@ -1,21 +1,33 @@
 export const projects = [
     {
-        name: "Reparaciones e Internet de las cosas",
-        description: "Reparaciones electrónicas y diseño e implementación de dispositivos Iot para todo tipo de necesidades del hogar y la industria.",
-        image: "iot.JPG",
-        url: "",
-    },
-    {
-        name: "Proyectos web para todo tipo de negocio",
+        name: "Diseños de paginas web",
         description: "Desarollo y despliegue de todo tipo de paginas web adaptada a tu tipo de negocio, ya que no es lo mismo una tienda online que una peluqueria.",
-        image: "dashboard-whole.JPG",
-        url: "",
+        image: "coverwebs.JPG",
+        url: "/webs",
     },
     {
-        name: "Aplicaciones móviles y de escritorio para cualquier tipo de industria",
-        description: "Desarrollamos aplicaciones para dar una solución económica para los pequeños negocios e industrias.",
+        name: "Actualización de sistemas",
+        description: "Nuestra empresa se dedica a la actualización de ordenadores tanto en hardware como en software para mejorar el rendimiento y la eficiencia de su equipo.",
+        image: "coveriot.JPG",
+        url: "/upgrade_systems",
+    },
+    {
+        name: "Aplicaciones para Android e iOS",
+        description: "La empresa es una innovadora compañía de tecnología especializada en el desarrollo de aplicaciones móviles para los sistemas operativos Android y iOS. ",
         image: "app-m-e.JPG",
-        url: "",
+        url: "/mobile",
+    },
+    {
+        name: "Internet de las cosas",
+        description: "Implementación de dispositivos Iot para todo tipo de necesidades del hogar y la industria.",
+        image: "iot.JPG",
+        url: "/iot",
+    },
+    {
+        name: "Electrónica",
+        description: "Implementación de dispositivos Iot para todo tipo de necesidades del hogar y la industria.",
+        image: "coverelectronica.JPG",
+        url: "/electronica",
     },
 ]
 export const iotProfile = [
@@ -43,13 +55,7 @@ export const iotProfile = [
         name: "Smart Switch para exteriores",
         description: "Diseño, programación y montaje de un enchufe inteligente para exterior. Programación con Arduino de un ESP32_SIM800L",
         image: "smart-switch-outdoor.JPG",
-    },
-    {
-        name: "App Android e iOS",
-        description: " Creación de Apps con Android Studio y React Native",
-        image: "app-react-crypto.JPG",
-    },
-
+    }
 ]
 
 export const web = [
